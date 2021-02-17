@@ -164,13 +164,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Laura Müller";
+				ORGANIZATIONNAME = BossCena;
 			};
 			buildConfigurationList = D37D31D418AACE460097F5C6 /* Build configuration list for PBXProject "RealtekRTL8100" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D37D31D018AACE460097F5C6;
@@ -312,7 +313,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = $MODULE_VERSION;
+				CURRENT_PROJECT_VERSION = 2.0.2;
 				GCC_FORCE_CPU_SUBTYPE_ALL = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RealtekRTL8100/RealtekRTL8100-Prefix.pch";
@@ -321,10 +322,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "RealtekRTL8100/RealtekRTL8100-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 2.0.2;
 				MODULE_NAME = com.insanelymac.RealtekRTL8100;
 				MODULE_VERSION = 2.0.1;
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.insanelymac.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robyrew.RealtekRTL8100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
@@ -336,7 +338,7 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = $MODULE_VERSION;
+				CURRENT_PROJECT_VERSION = 2.0.2;
 				GCC_FORCE_CPU_SUBTYPE_ALL = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RealtekRTL8100/RealtekRTL8100-Prefix.pch";
@@ -345,10 +347,11 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "RealtekRTL8100/RealtekRTL8100-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 2.0.2;
 				MODULE_NAME = com.insanelymac.RealtekRTL8100;
 				MODULE_VERSION = 2.0.1;
 				OTHER_CFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.insanelymac.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robyrew.RealtekRTL8100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = kext;
