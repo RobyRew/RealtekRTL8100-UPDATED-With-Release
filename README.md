@@ -49,6 +49,8 @@ Troubleshooting
 
 Changelog
 ---------
+Version 2.0.2 (2021-02-17):
+ - Added release and updated the builder
 
 Version 2.0.0 (2017-04-01):
  - Uses Apple's private driver interface introduced with 10.8.
