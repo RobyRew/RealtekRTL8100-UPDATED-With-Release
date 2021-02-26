@@ -6,8 +6,9 @@ RealtekRTL8100
 
 Before you install the driver you have to remove any installed driver for RTL810X.
 
-1. Put in your `EFI/OC/Kext` folder.
+1. Put the `.kext` file `RELEASE` or `DEBUG` version in your `EFI/OC/Kext` folder.
 2. Do a Snapshot on your `config.plist`.
+3. Reboot.
 
 
 Troubleshooting
