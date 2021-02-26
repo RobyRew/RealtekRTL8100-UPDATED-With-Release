@@ -6,21 +6,8 @@ RealtekRTL8100
 
 Before you install the driver you have to remove any installed driver for RTL810X.
 
-1. Goto /S/L/E and delete the old driver.
-
-2. Recreate the kernel cache.
-
-3. Open System Preferences and delete the corresponding network interface, e. g. en0. If you forget this step you might experience strange problems with certain Apple domains, iTunes and iCloud later.
-
-4. Reboot.
-
-5. Install the new driver and recreate the kernel cache.
-
-6. Reboot
-
-7. Open System Preferences again, select Network and check if the new network interface has been created automatically or create it manually now.
-
-8. Configure the interface.
+1. Put in your `EFI/OC/Kext` folder.
+2. Do a Snapshot on your `config.plist`.
 
 
 Troubleshooting
